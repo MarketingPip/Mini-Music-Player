@@ -16,33 +16,6 @@
   pointer-events: all;
 }
 
-summary,
-.details-info {
-  padding: 1rem;
-}
-
-
-summary .icon {
-  display: inline-block;
-  width: 24px;
-  height: 24px;
-  transition: transform 0.26s;
-  color: var(--collapse-icon-color);
-}
-
-summary .icon2 {
-
-  width: 10px;
-  height: 10px;
-  
-}
-details[open] summary .icon {
-  transform: rotate(180deg);
-}
-
-details[closed] summary .icon {
-  transform: rotate(180deg);
-}
 
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700);
  body {
